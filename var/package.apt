@@ -1,0 +1,20 @@
+name=ansible
+
+bin=${name}
+
+type=apt
+
+os="Ubuntu"
+os_version="24.10"
+
+package=(
+    "python3-dnspython"
+    "python3-resolvelib"
+    "python3-packaging"
+    "ansible-core"
+    "${name}_"
+
+    # Optional
+    # "python3-winrm"
+    # "python3-simplejson
+)
